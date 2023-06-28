@@ -18,6 +18,7 @@ private const val BASE_URL = "https://api.kanye.rest/"
 @InstallIn(SingletonComponent::class)
 class AppModule {
 
+
     @Singleton
     @Provides
     fun provideKanyaWestApi(): KanyeWestApi = Retrofit.Builder()
